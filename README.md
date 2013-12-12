@@ -29,7 +29,7 @@ from within visual studio. Then just run the program.
 -This program is intended to be run on windows and was made in visual studio. If you are trying to run the program from the command line, to run it
  in the command line type "assign3" then the file you wish to use as input (has to be in the same format as the screenfile.txt) and if you want, after
  specifying the input file, you can specify an output jpeg file. 
--You can find sample input files in "samples" in assign3/s
+-You can find sample input files in "samples" in assign3
 
 When you run the program, you can set some features
 -It will ask you to change the amount of bounces. The range is between 0 and 5. The values will be clamped if you go outside that range
