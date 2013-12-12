@@ -3,8 +3,8 @@ I intend to work on it some since it was quite fun to make. My next goal is to t
 by implementing a better search algorithm for actually detecting collisions as I currently use a linear search
 to detect collisions and it is extremely slow for large objects. 
 
-This was a homework assignment, so some of the dlls and pic.h library were given to us so we didn't have to worry
-about figuring out how to extract an image from a jpeg image. Its also why the project is called "assign3." 
+This was a homework assignment, so some of the dlls and the pic.h library were given to us so we didn't have to worry
+about figuring out how to extract an image from a jpeg file. Its also why the project is called "assign3." 
 
 I plan to swap out the jpeg dlls and use an open-source library that i've used in the past which is smaller and 
 easy to use.
@@ -15,7 +15,7 @@ https://code.google.com/p/jpeg-compressor/
 NOTES
 -----
 -If you are testing out the program and are using the table image, don't using reflection (ie, set the number of bounces to 0)
- This is because the program will go slowly, also for some reason the triangles on the table are very reflective, so the will look
+ This is because the program will go slowly, also for some reason the triangles on the table are very reflective, so they will look
  a bit strange
 -If you are using the siggraph image, don't use antialiasing or too many shadow rays, the program is simply too slow to handle these things
  since there is a lot of iteration going on.
